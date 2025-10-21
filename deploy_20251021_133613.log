@@ -1,0 +1,18 @@
+
+[INFO] Collecting inputs
+Git repository URL (HTTPS) (e.g. https://github.com/user/repo.git) [https://github.com/nkereuwemelijah/your-repo.git]: Your GitHub username [nkereuwemelijah]: Personal Access Token (PAT) — will be used for clone/pull (will not be stored permanently): Personal Access Token (PAT) — will be used for clone/pull (will not be stored permanently) (cannot be empty): Personal Access Token (PAT) — will be used for clone/pull (will not be stored permanently) (cannot be empty): Personal Access Token (PAT) — will be used for clone/pull (will not be stored permanently) (cannot be empty): Branch (press enter for default 'main') [main]: Remote SSH username (often 'ubuntu' for Ubuntu AMIs) [ubuntu]: Remote server public IP: Path to SSH private key for remote (e.g. ~/Downloads/my-ec2-key.pem) [~/Downloads/my-ec2-key.pem]: Application internal container port (e.g. 8080) [8080]: 
+[INFO] REPO_URL=https://github.com/nkereuwemelijah/hng13-devops-stage1.git
+
+[INFO] REMOTE=ubuntu@54.205.175.101
+
+[INFO] BRANCH=main
+
+[INFO] APP_PORT=8080
+
+[INFO] Logfile: deploy_20251021_133613.log
+
+[INFO] Cloning repository...
+Cloning into 'C:/nkereuwemelijah/hng13-devops-stage1/deploy_workdir/hng13-devops-stage1'...
+fatal: Remote branch main not found in upstream origin
+
+[ERROR] git clone failed
